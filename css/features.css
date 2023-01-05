@@ -1,0 +1,89 @@
+body {
+  background-color: var(--dark-black);
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: var(--spacing-200) 20% 0 20%;
+}
+header span {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+header h2 {
+  max-width: 50%;
+  margin: auto;
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-400);
+  margin-bottom: var(--fs-500);
+}
+header p {
+  max-width: 50%;
+  margin: auto;
+  font-size: var(--fs-900);
+  color: var(--light-gray);
+  margin-bottom: var(--spacing-300);
+}
+
+/* main section */
+main {
+  margin-bottom: var(--spacing-100);
+}
+
+main section h3 {
+  font-size: var(--fs-200);
+  margin-bottom: var(--spacing-400);
+}
+main section p {
+  font-size: var(--fs-900);
+  color: var(--light-gray);
+}
+
+/* plan */
+.plan h3 {
+  background: -webkit-linear-gradient(#cdc71d, #1d975a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* progress */
+.progress h3 {
+  background: -webkit-linear-gradient(#aa1717, #a00fb3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* collaborate */
+.collaborate h3 {
+  background: -webkit-linear-gradient(#4adaad, #2d82b3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* analyze */
+.analyze h3 {
+  background: -webkit-linear-gradient(#ad28c1, #2d82b3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* level up */
+.level-up h3 {
+  background: -webkit-linear-gradient(#c46d21, #73951e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* secure */
+.secure h3 {
+  background: -webkit-linear-gradient(#c91cf4, #2569b7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

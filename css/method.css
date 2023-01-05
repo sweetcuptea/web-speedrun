@@ -1,0 +1,76 @@
+body {
+  background-color: var(--dark-black);
+}
+
+/* hero metod */
+#hero-method {
+  padding: var(--spacing-200) 25% 0 25%;
+  margin-bottom: var(--spacing-300);
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+/* hero method left */
+.hero-method-left {
+  flex: 4;
+}
+.hero-method-left h2 {
+  font-size: var(--fs-400);
+  font-family: var(--ff-secondary);
+}
+.hero-method-left span {
+  display: block;
+  padding-bottom: var(--spacing-500);
+  margin-bottom: var(--spacing-500);
+  font-size: var(--fs-900);
+  color: var(--light-gray);
+  border-bottom: 1px solid #eaeaea5c;
+}
+.hero-method-left p {
+  font-size: var(--fs-900);
+  padding: 10px 0;
+}
+/* hero top right */
+.hero-method-right {
+  flex: 2;
+}
+.hero-method-right img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* main content */
+main {
+  margin: 0 25% 10% 25%;
+  display: flex;
+  flex-direction: column;
+}
+main section {
+  margin-top: var(--spacing-300);
+  font-size: var(--fs-600);
+  display: flex;
+  border-top: 1px solid #eaeaea5c;
+}
+main section span {
+  color: var(--light-gray);
+  margin: var(--spacing-400) var(--spacing-400) 0 0;
+}
+main section div {
+  margin: var(--spacing-400) var(--spacing-400) 0 0;
+  display: flex;
+  flex-direction: column;
+}
+main section div h4 {
+  font-weight: 600;
+  margin-bottom: var(--spacing-500);
+}
+main section div a {
+  font-weight: 600;
+  font-size: var(--fs-800);
+  color: var(--secondary-color);
+}
+main section div a:hover {
+  color: var(--light-white);
+}

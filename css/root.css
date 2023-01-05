@@ -1,0 +1,41 @@
+/*
+* font usage : 
+* font-family: 'Cabinet Grotesk', sans-serif;
+* font-family: 'Satoshi', sans-serif;
+*/
+
+:root {
+  /* color */
+  --dark-blue: #000212;
+  --dark-black: #060606;
+  --light-gray: #878c95;
+  --light-white: #f7f8f8;
+  --primary-color: #673fd7;
+  --secondary-color: #5f6ad2;
+  --primary-gradient: linear-gradient(to right, #673fd7, #5f6ad2);
+  --primary-gradient-reverse: linear-gradient(to right, #5f6ad2, #673fd7);
+
+  /* font family */
+  --ff-primary: "Satoshi", sans-serif;
+  --ff-secondary: "Cabinet Grotesk", sans-serif;
+
+  /* spacing */
+  --spacing-100: 280px;
+  --spacing-200: 140px;
+  --spacing-300: 48px;
+  --spacing-400: 24px;
+  --spacing-500: 16px;
+
+  /* font size */
+  --fs-100: 5rem; /* 80px */
+  --fs-200: 3.5rem; /* 56px */
+  --fs-300: 2.5rem; /* 40px */
+  --fs-400: 2.25rem; /* 36px */
+  --fs-500: 1.625rem; /* 26px */
+  --fs-600: 1.5rem; /* 24px */
+  --fs-700: 1.375rem; /* 22px */
+  --fs-800: 1.25rem; /* 20px */
+  --fs-900: 1.125rem; /* 18px */
+  --fs-1000: 1rem; /* 20px */
+  --fs-1100: 0.875rem; /* 14px */
+}

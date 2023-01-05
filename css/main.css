@@ -1,0 +1,118 @@
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+  font-family: "satoshi", sans-serif;
+  color: var(--light-gray);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: var(--light-white);
+}
+
+p {
+  font-size: var(--fs-900);
+}
+
+hr {
+  width: 90%;
+  margin: 10% auto;
+  border: 1px solid rgba(255, 255, 255, 0.043);
+
+}
+
+/* nav */
+nav {
+  width: 100%;
+  margin: auto;
+  padding: 10px 20%;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fs-1100);
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  position: fixed;
+}
+nav a:hover {
+  color: var(--light-gray);
+}
+nav ul {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+nav span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: default;
+}
+nav svg {
+  fill: var(--light-gray);
+  width: 24px;
+  height: 24px;
+}
+nav li {
+  list-style: none;
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+nav button {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* main */
+main {
+  margin: 0 20%;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  padding: 5% 20% 5% 20%;
+  text-align: center;
+  border-top: 1px solid #78787858;
+  background: linear-gradient(to top, #00031c, transparent);
+}
+footer p {
+  margin: var(--spacing-500);
+}
+footer div p {
+  color: var(--light-gray);
+}
+footer div p:hover {
+  color: var(--light-white);
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
